@@ -33,7 +33,7 @@
     --border-radius: 20px;
 }
 
-/* Responsive Typography*/
+/* Responsive Typography */
 @media screen and (max-width: 1024px) {
   :root {
     --h1-font-size: 1.75rem;
