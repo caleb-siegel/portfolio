@@ -2,6 +2,7 @@ import React from 'react';
 import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from './AboutBox';
+import Resume from "../../assets/Caleb-Siegel-Resume.pdf";
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
         <div className="about__data grid">
           <div className="about__info">
             <p className="about__description">I am Caleb Siegel, software engineer from NYC. I have rich experience in Python, Javascript, React, HTML and CSS.</p>
-            <a href="" className="btn">Download Resumè</a>
+            <a href={Resume} className="btn" target="_blank" rel="noopener noreferrer">View Resumè</a>
           </div>
 
           <div className="about__skills grid">
