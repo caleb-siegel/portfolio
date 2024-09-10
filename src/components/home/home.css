@@ -9,6 +9,7 @@
 .intro {
     max-width: 540px;
     text-align: center;
+    z-index: 1;
 }
 
 .home__img {
@@ -31,7 +32,6 @@
     color: var(--title-color);
     font-size: 1.3rem;
     transition: .3s;
-    /* z-index: 100; */
 }
 
 .home__social-link:hover {
