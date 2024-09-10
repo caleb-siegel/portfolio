@@ -3,6 +3,7 @@ import "./about.css";
 import Image from "../../assets/avatar-2.svg";
 import AboutBox from './AboutBox';
 import Resume from "../../assets/Caleb-Siegel-Resume.pdf";
+import Technologies from './Technologies';
 
 const About = () => {
   return (
@@ -14,7 +15,7 @@ const About = () => {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Caleb Siegel, software engineer from NYC. I have rich experience in Python, Javascript, React, HTML and CSS.</p>
+            <p className="about__description">Welcome to my Website! My name is Caleb Siegel and I am a software engineer in NYC. Languages/Technologies/Frameworks I have worked with are Python, Javascript, React, HTML, CSS, Vite, SQLAlchemy, SQL, Flask, Material UI, PostgreSQL, SQLite.</p>
             <a href={Resume} className="btn" target="_blank" rel="noopener noreferrer">View Resumè</a>
           </div>
 
@@ -55,7 +56,8 @@ const About = () => {
         </div>
       </div>
 
-      <AboutBox />
+      {/* <AboutBox /> */}
+      {/* <Technologies /> */}
     </section>
   )
 }

@@ -18,12 +18,12 @@ function App () {
     <main className='main'>
       <Home />
       <About />
-      <Services />
-      <Resume />
+      {/* <Services /> */}
       <Portfolio />
-      <Pricing />
-      <Testimonials />
-      <Blog />
+      <Resume />
+      {/* <Pricing /> */}
+      {/* <Testimonials /> */}
+      {/* <Blog /> */}
       <Contact />
     </main>
     </>
