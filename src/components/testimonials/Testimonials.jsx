@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Testimonials.css";
+import "./testimonials.css";
 import Image1 from "../../assets/avatar-1.svg";
 import Image3 from "../../assets/avatar-3.svg";
 import  { Pagination } from 'swiper/modules';
