@@ -33,7 +33,7 @@ const Contact = () => {
                   type="text"
                   className="contact__form-input"
                   placeholder='Name'
-                  name="user_name"
+                  name="name"
                 />
               </div>
               <div className="contact__form-div">
@@ -41,7 +41,7 @@ const Contact = () => {
                   type="email"
                   className="contact__form-input"
                   placeholder='Email'
-                  name="user_email"
+                  name="email"
                 />
               </div>
             </div>
